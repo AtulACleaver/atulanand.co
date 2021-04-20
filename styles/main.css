@@ -6,10 +6,16 @@
 /* Fonts - End */
 
 /* Universal For HTML */
+:root{
+    --red: #ff6b6b;
+    --white: #fafafa;
+    --background: #171717;
+}
+
 *{
     padding: 0;
     margin: 0;
-    background-color: #171717;
+    background-color: var(--background);
     outline: none;
     box-sizing: border-box;
     min-height: 0;
