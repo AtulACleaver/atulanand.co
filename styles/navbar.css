@@ -34,7 +34,7 @@ a.logo:hover{
 .nav-list-a{
     font-size: 17px;
     font-family: 'JetBrains Mono', monospace;
-    color: #fff;
+    color: #fafafa;
     text-decoration: none;
     padding-right: 10px;
     padding-left: 10px;
@@ -47,6 +47,5 @@ a.logo:hover{
 
 .github-logo{
     width: 25px;
-    height:25px; 
-    fill: #fff !important;     
+    height:25px;   
 }
