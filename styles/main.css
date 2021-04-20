@@ -1,15 +1,33 @@
 /* Fonts */
-
+/* TODO Download fonts:-
+    * NewYork
+    * TT Ramillas
+*/
 /* Fonts - End */
 
 /* Universal For HTML */
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    background-color: #171717;
+    outline: none;
+    box-sizing: border-box;
+    min-height: 0;
+    min-width: 0;
+    font-family: inherit;
 }
 
-body{
-    background: #1a1a1d;
+.container{
+    padding-top: 10px;
+    padding-right: 260px;
+    padding-left: 260px;
 }
 
+button{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: default;
+}
