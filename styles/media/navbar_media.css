@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+    .container{
+        padding: 0;
+    }
+    .nav-bar{
+        display: block;
+        width: 100%;
+    }
+    .logo{
+        text-align: center;
+        width: 100%;
+    }
+    .nav-list{
+        visibility: hidden;
+    }
+}
