@@ -2,13 +2,14 @@
     .container{
         padding: 0;
     }
+    
     .nav-bar{
-        display: block;
+        display: flex;
         padding-top: 10px;
         width: 100%;
     }
     .logo{
-        text-align: center;
+        padding-left: 20px;
         width: 100%;
     }
     .nav-list{
