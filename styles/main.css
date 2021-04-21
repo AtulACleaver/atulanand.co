@@ -20,9 +20,10 @@
 
 /* Universal For HTML */
 :root{
-    --scheme: #ff6b6b;
+    --scheme: #5c1ed8;
     --white: #fafafa;
-    --text: #1B2A3D
+    --text: #1B2A3D;
+    --grey: #777777;
 }
 
 *{
@@ -50,7 +51,15 @@ button{
     outline: none;
 }
 
-a{
+a {
     text-decoration: none;
-    color: default;
+    color: unset;
+}
+
+.active a{
+    color: var(--grey);
+}
+
+.active a:hover{
+    color: var(--grey);
 }
