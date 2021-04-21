@@ -2,20 +2,14 @@
 /* TODO Download fonts:-
     * NewYork
 */
-@font-face{
-    font-family: 'NewYork', serif;
-    src: url('../assets/fonts/NewYork.ttf') format('truetype');
-}
+
+/* Fonts - End */
 @font-face {
     font-family: 'new_yorkregular';
-    src: url('../assets/fonts/newyork-webfont.woff2') format('woff2'),
-    url('../assets/fonts/newyork-webfont.woff') format('woff');
+    src: url('../assets/fonts/newyork-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-/* Fonts - End */
-
 /* Universal For HTML */
 :root{
     --red: #ff6b6b;
