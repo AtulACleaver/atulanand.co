@@ -1,6 +1,7 @@
+/* mobile and small tablets */
 @media screen and (max-width: 540px) {
     .container{
-        padding: 0;
+        padding: 10px 0px;
     }
     
     .nav-bar{
@@ -23,12 +24,12 @@
 
 @media screen and (max-width: 768px) {
     .container{
-        padding: 10px 40px;
+        padding: 10px 5% !important;
     }
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1100px){
     .container{
-        padding: 10px 100px;
+        padding: 10px 130px;
     }
 }
