@@ -1,15 +1,23 @@
 /* Fonts */
-/* TODO Download fonts:-
-    * NewYork
-*/
 
-/* Fonts - End */
+/* Magalieregular Font*/
 @font-face {
-    font-family: 'new_yorkregular';
-    src: url('../assets/fonts/newyork-webfont.woff') format('woff');
+    font-family: 'magalieregular';
+    src: url('../assets/fonts/magalie-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
+
+@font-face {
+    font-family: 'Messina Sans';
+    src: url('../assets/fonts/MessinaSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Fonts - End */
+
 /* Universal For HTML */
 :root{
     --scheme: #ff6b6b;
