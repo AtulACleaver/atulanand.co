@@ -2,6 +2,10 @@
 /* TODO Download fonts:-
     * NewYork
 */
+@font-face{
+    font-family: 'NewYork', serif;
+    src: url('../assets/fonts/NewYork.ttf') format('truetype');
+}
 @font-face {
     font-family: 'new_yorkregular';
     src: url('../assets/fonts/newyork-webfont.woff2') format('woff2'),
