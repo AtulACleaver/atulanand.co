@@ -1,8 +1,11 @@
 /* Fonts */
 /* TODO Download fonts:-
     * NewYork
-    * TT Ramillas
 */
+@font-face {
+    font-family: 'NewYork', serif;
+    url('assets/font/NewYork.ttf') format('truetype');
+}
 /* Fonts - End */
 
 /* Universal For HTML */
