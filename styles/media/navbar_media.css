@@ -4,6 +4,7 @@
     }
     .nav-bar{
         display: block;
+        padding-top: 10px;
         width: 100%;
     }
     .logo{
