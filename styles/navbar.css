@@ -40,7 +40,7 @@
 }
 
 a.logo:hover{
-    font-size: 2.6rem;
+    filter: brightness(130%);
 }
 
 .nav-list{
@@ -68,9 +68,3 @@ a.logo:hover{
 .nav-list-a:hover{  
     color: var(--scheme);
 }
-
-/* .socials-logo{
-    width: 25px;
-    height:25px;  
-} */
-

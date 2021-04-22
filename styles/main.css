@@ -24,6 +24,7 @@
     --white: #fafafa;
     --text: #1B2A3D;
     --grey: #777777;
+    --text-font: 'Messina Sans';
 }
 
 *{
@@ -33,7 +34,8 @@
     box-sizing: border-box;
     min-height: 0;
     min-width: 0;
-    font-family: inherit;
+    font-family: var(--text-font);
+    color: var(--text);
 }
 
 body{
@@ -62,4 +64,18 @@ a {
 
 .active a:hover{
     color: var(--grey);
+}
+
+u{
+    text-decoration-color: var(--scheme);
+}
+
+/*Common Tags for all over the webpage*/
+.references{
+    text-decoration: underline;
+    color: var(--scheme);
+    transition: all 0.2s ease-out;
+}
+.references:hover{
+    filter: brightness(87%);
 }
