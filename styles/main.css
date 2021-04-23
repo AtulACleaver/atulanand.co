@@ -1,14 +1,5 @@
 /* Fonts */
 
-/* Magalieregular Font*/
-@font-face {
-    font-family: 'magalieregular';
-    src: url('../assets/fonts/magalie-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 @font-face {
     font-family: 'Messina Sans';
     src: url('../assets/fonts/MessinaSans-Regular.woff') format('woff');
