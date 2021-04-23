@@ -16,6 +16,7 @@
     --text: #1B2A3D;
     --grey: #777777;
     --text-font: 'Messina Sans';
+    --light: #000;
 }
 
 *{
@@ -69,4 +70,14 @@ u{
 }
 .references:hover{
     filter: brightness(87%);
+}
+
+/* hr */
+.end{
+    display: block;
+    width: 25%;
+    margin: auto;
+    margin-top: 5rem;
+    border: 2px solid var(--scheme);
+    border-radius: 12px;
 }

@@ -1,0 +1,18 @@
+.heading{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 3rem;
+}
+
+.references{
+    text-decoration: none;
+}
+
+.intro-text{
+    
+    padding-top: 2.3rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
