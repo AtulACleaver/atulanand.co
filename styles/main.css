@@ -18,7 +18,13 @@
     --text-font: 'Messina Sans';
 }
 
+/* Scroll-bar */
+::-webkit-scrollbar {
+    display: none;
+}
+
 *{
+    -ms-overflow-style: none;
     padding: 0;
     margin: 0;
     outline: none;
