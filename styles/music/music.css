@@ -44,7 +44,6 @@
 .music{
     border-radius: 10px;
     filter: drop-shadow(3px 3px 7px var(--grey));
-    z-index: -1;
     width: 300px;
     height: 380px;
 }
