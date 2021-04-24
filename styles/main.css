@@ -62,7 +62,7 @@ body{
 
 /* Elements */
 button{
-    outline: none;
+    outline: none !important;
 }
 
 a {
