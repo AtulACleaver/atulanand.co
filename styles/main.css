@@ -16,7 +16,6 @@
     --text: #1B2A3D;
     --grey: #777777;
     --text-font: 'Messina Sans';
-    --light: #000;
 }
 
 *{
@@ -40,6 +39,21 @@ body{
     padding-left: 20%;
 }
 
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #111111;
+}
+
+.copyright{
+    color: var(--grey);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
 /* Elements */
 button{
     outline: none;
@@ -52,10 +66,12 @@ a {
 
 .active a{
     color: var(--scheme);
+    font-weight: bold;
 }
 
 .active a:hover{
     color: var(--scheme);
+    font-weight: bold;
 }
 
 u{

@@ -7,14 +7,3 @@ function setColor(){
 }
 
 setColor();
-
-// This will just a less opacity
-var colors = ['#025fff3f','#8ac9263f','#f098353f','#e9373f3f','#9650a93f'];
-
-var randomColors = colors[Math.floor(Math.random() * colors.length)];
-
-function lightColor(){
-    $(":root").css("--light", randomColors);
-}
-
-lightColor();

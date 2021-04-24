@@ -1,9 +1,27 @@
+/*Common for all in the music page*/
 .heading{
     width: 100%;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    padding-top: 3rem;
+    padding-top: 4rem;
+    /*Instead of remove padding for writing description I am using margin-top: -x;*/
+    padding-bottom: 3rem;
+}
+
+.sub-heading{
+    padding-top: 2rem;
+    padding-bottom: 6px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.description{
+    margin-top: -2.2rem;
+    text-align: center;
+    padding-bottom: 2.5rem;
+    font-size: 1.2rem;
 }
 
 .references{
@@ -11,8 +29,34 @@
 }
 
 .intro-text{
-    
-    padding-top: 2.3rem;
     font-size: 1.2rem;
     text-align: center;
 }
+/*End*/
+
+/*Playlist*/
+.playlist{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Common for both playlist and music*/
+.music{
+    border-radius: 10px;
+    filter: drop-shadow(3px 3px 7px var(--grey));
+    z-index: -1;
+}
+
+.songs{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*podcasts*/
+.podcasts{
+    padding-bottom: 3rem;
+}
+
+
+

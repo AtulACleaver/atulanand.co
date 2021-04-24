@@ -1,4 +1,6 @@
 .rgb_strip{
+    position: fixed;
+    z-index: 100;
     height: 5px;
     width: 100%;
     background-image: -webkit-gradient(linear,left top,right top,from(#025fff),color-stop(#22d278),color-stop(#f5e400),color-stop(#f09835),color-stop(#e9373f),color-stop(#9650a9),to(#025fff));
