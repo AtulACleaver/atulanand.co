@@ -1,0 +1,18 @@
+@media screen and (max-width: 700px){
+    .music{
+        width: 250px;
+        height: 316px;
+    }
+}
+
+@media screen and (max-width:592px){
+    .playlist{
+        flex-wrap: wrap;
+    }
+    .songs{
+        flex-wrap: wrap;
+    }
+    .music{
+        margin-bottom: 30px;
+    }
+}

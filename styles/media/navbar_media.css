@@ -1,5 +1,5 @@
 /* mobile and small tablets */
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 590px) {
     .container{
         padding: 10px 0px;
     }
@@ -24,7 +24,7 @@
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .container{
         padding: 10px 5% !important;
     }
