@@ -94,6 +94,7 @@ u{
     width: 25%;
     margin: auto;
     margin-top: 5rem;
+    padding: 0;
     border: 2px solid var(--scheme);
     border-radius: 12px;
 }
