@@ -46,6 +46,7 @@
     <!-- CSS Elements -->
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+    <link rel="stylesheet" type="text/css" href="styles\blogs\blog.css"
     <!-- CSS Media Fix -->
     <link rel="stylesheet" href="styles/media/navbar_media.css">
     <!-- CSS-Connections-END -->
@@ -78,6 +79,16 @@
             </div>
         </div>
     </header>
+    <section>
+        <div class="heading">Latest <a class="references" href="https://medium.com/@atulacleaver">Medium</a> Articles</div>
+        <div class="intro-text">To check all my amazing articles check my <a class="references" href="https://medium.com/@atulacleaver">medium page</a>.</div>
+    </section>
+    <div id="medium-widget"></div>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@atulacleaver","postsPerLine":1,"limit":9,"picture":"big","fields":["description","author","claps","likes","publishAt"],"ratio":"landscape"}})</script>
 </div>
+<footer class = "footer">
+    <div class="copyright">&copy; <a class="references" href="https://linktr.ee/AtulACleaver">Atul Anand</a> 2021, All Rights Reserved.</div>
+</footer>
 </body>
 </html>

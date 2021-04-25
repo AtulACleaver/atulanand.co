@@ -86,7 +86,6 @@ u{
 
 /*Common Tags for all over the webpage*/
 .references{
-    text-decoration: underline;
     color: var(--scheme);
     transition: all 0.2s ease-out;
 }
