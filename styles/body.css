@@ -1,9 +1,13 @@
 .heading{
     padding-top: 10%;
-    font-size: 3rem;
+    font-size: 2.8rem;
     padding-bottom: 3%;
 }
 .intro-text{
     font-size: 1.5rem;
     padding-bottom: 15px;
+}
+
+.passion-img{
+    width: 100%;
 }
