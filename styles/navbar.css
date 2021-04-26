@@ -25,6 +25,7 @@
 
 .nav-bar{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -72,12 +73,14 @@ a.logo:hover{
     color: var(--scheme);
 }
 
-/* Hamburger Menu */
 .hamburger{
+    background-color: transparent;
+    border: none;
     display: none;
+    color: var(--black);
+    cursor: pointer;
 }
 
-.hamburger-btn{
-    border: none;
-    background: none;
+.hamburger:focus{
+    outline: none;
 }
