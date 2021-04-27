@@ -56,7 +56,7 @@ a.logo:hover{
 .nav-list-item{
     display: inline-block; 
     color: var(--scheme); 
-    list-style: none;   
+    list-style: none;
 }
   
 .nav-list-a{
@@ -66,7 +66,6 @@ a.logo:hover{
     text-decoration: none;
     padding-right: 2.5vw;
     padding-left: 2.5vw;
-    transition: all 0.2s ease-out;
 }
 
 .nav-list-a:hover{  

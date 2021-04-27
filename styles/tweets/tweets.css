@@ -1,0 +1,8 @@
+.tweets{
+    display: flex;
+}
+
+.twitter-tweet {
+    padding-right: 30px;
+    padding-left: 20px;
+}
