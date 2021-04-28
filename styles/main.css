@@ -94,6 +94,11 @@ u{
     filter: brightness(87%);
 }
 
+.references:focus{
+    font-weight: bold;
+    filter: brightness(87%);
+}
+
 /* hr */
 .end{
     display: block;
@@ -103,4 +108,8 @@ u{
     padding: 0;
     border: 2px solid var(--scheme);
     border-radius: 12px;
+}
+
+#twitter-color{
+    color: #08a0e9;
 }
