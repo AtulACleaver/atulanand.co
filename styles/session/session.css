@@ -30,4 +30,14 @@
     margin-bottom: .5rem;
 }
 
+.collab-img{
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+}
+
+#discord-color{
+    color: #8a9cfe;
+}
+
 
