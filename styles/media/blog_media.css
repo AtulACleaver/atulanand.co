@@ -1,10 +1,23 @@
 @media screen and (max-width: 540px){
     .heading{
-        font-size: 2.2rem;
+        font-size: 2.1rem;
+    }
+    .topics-section{
+        display: block;
+        width: 100%;
+    }
+    .topics{
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 800px){
+    .heading{
+        font-size: 5vw;
+    }
+    .intro-text {
+        font-size: 2.5vw;
+    }
     .heading-2{
         font-size: 4.5vw;
     }

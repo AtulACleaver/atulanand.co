@@ -1,7 +1,7 @@
 /* mobile and small tablets */
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 600px) {
     .container{
-        padding: 10px 0px;
+        padding: 10px 0;
     }
     
     .nav-bar{
