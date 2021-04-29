@@ -12,7 +12,7 @@
 }
 
 .intro-text {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
     padding-bottom: 15px;
 }
@@ -44,4 +44,14 @@
 
 .link-article{
     flex-wrap: wrap;
+}
+
+/*Topics-based*/
+.topics-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topics{
+    width: 45%;
 }

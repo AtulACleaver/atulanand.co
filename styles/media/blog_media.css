@@ -3,3 +3,12 @@
         font-size: 2.2rem;
     }
 }
+
+@media screen and (max-width: 750px){
+    .heading-2{
+        font-size: 4.5vw;
+    }
+    .article-heading{
+        font-size: 2.5vw;
+    }
+}
