@@ -1,6 +1,6 @@
 @media screen and (max-width: 540px){
     .heading{
-        font-size: 2.1rem;
+        font-size: 2.5rem;
     }
     .topics-section{
         display: block;
@@ -10,36 +10,45 @@
         width: 100%;
     }
     #study-topics{
-        height: 170px;
+        height: 220px;
     }
     #skills{
-        height: 250px;
+        height: 270px;
     }
     #tips{
-        height: 170px;
+        height: 200px;
     }
     #experiences{
-        height: 200px;
+        height: 230px;
     }
 }
 
 @media screen and (max-width: 800px){
     .heading{
-        font-size: 5vw;
+        font-size: 2.5rem;
     }
     .intro-text {
-        font-size: 2.5vw;
+        font-size: 1.3rem;
     }
     .heading-2{
-        font-size: 4.5vw;
+        font-size: 2.2rem;
     }
     .article-heading{
-        font-size: 2.5vw;
+        font-size: 1.2rem;
     }
     .topics-section{
         padding-bottom: 2rem;
     }
     .topics{
         height: 300px;
+    }
+}
+
+@media screen and (max-width:905px){
+    .heading-2{
+        font-size: 2.2rem;
+    }
+    .article-heading{
+        font-size: 1rem;
     }
 }
