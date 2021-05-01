@@ -1,0 +1,17 @@
+@media screen and (max-width:850px){
+    .intro-text{
+        font-size: 1.3rem;
+    }
+    .passion{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:540px){
+    .intro-text{
+        font-size: 1.1rem;
+    }
+    .passion{
+        width: 100%;
+    }
+}

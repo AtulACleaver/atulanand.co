@@ -14,17 +14,19 @@
 }
 
 .video {
-    overflow: hidden;
-    position: relative;
-    width:100%;
+    position: relative; 
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden; 
 }
 
 .video iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    height: 400px;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
 }
 
 .passion{
@@ -41,52 +43,20 @@
     padding-bottom: 20px;
 }
 
-.github{
-    height: 200px;
-    width: 200px;
+.icon{
+    height: 15vw;
+    width: 15vw;
     margin: 0 10px 0;
     filter: drop-shadow(2px 2px 4px black);
     transition: all 0.2s ease-in-out;
 }
 
-.github:hover{
+.icon:hover{
     transform: scale(1.1);
 }
 
-.dribble{
-    width: 200px;
-    height: 200px;
-    margin: 0 10px 0;
-    filter: drop-shadow(2px 2px 4px black);
-    transition: all 0.2s ease-in-out;
+.caption{
+    font-size: 0.8rem;
+    color: darkgrey;
+    text-align: center; 
 }
-
-.dribble:hover{
-    transform: scale(1.1);
-}
-
-.twitter{
-    width: 200px;
-    height: 200px;
-    margin: 0 10px 0;
-    filter: drop-shadow(2px 2px 4px black);
-    transition: all 0.2s ease-in-out;
-}
-
-.twitter:hover{
-    transform: scale(1.1);
-}
-
-.youtube{
-    width: 200px;
-    height: 200px;
-    margin: 0 10px 0;
-    filter: drop-shadow(2px 2px 4px black); 
-    transition: all 0.2s ease-in-out;
-
-}
-
-.youtube:hover{
-    transform: scale(1.1);
-}
-
