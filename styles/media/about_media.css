@@ -5,6 +5,32 @@
     .passion{
         width: 90%;
     }
+    .testimonial-card-item{
+        width: 280px !important;
+        height: 440px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .testimonial-card{
+        display: block;
+        width: 100%;
+    }
+    .testimonial-card-item{
+        margin: 0 auto 40px;
+        width: 400px !important;
+        height: 400px;
+        padding: 2rem;
+    }
+    .name{
+        font-size: 1.5rem !important;
+    }
+    .profession{
+        font-size: 17px !important;
+    }
+    .response{
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width:540px){
@@ -13,5 +39,20 @@
     }
     .passion{
         width: 100%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .testimonial-card-item{
+        width: 320px;
+    }
+    .name{
+        font-size: 1.2rem;
+    }
+    .profession{
+        font-size: 14px;
+    }
+    .response{
+        font-size: 1.1rem;
     }
 }

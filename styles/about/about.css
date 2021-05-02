@@ -74,6 +74,13 @@
     background-color: #f3f9fb;
     border: 1px solid var(--grey);
     border-radius: 20px;
+    filter: drop-shadow(3px 3px 7px var(--grey));
+    transition: all 0.4s ease-out;
+}
+
+.testimonial-card-item:hover{
+    transform: scale(1.03);
+    filter: drop-shadow(3px 3px 7px var(--darkgrey));
 }
 
 .name{
