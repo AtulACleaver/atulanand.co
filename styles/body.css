@@ -16,5 +16,5 @@
 .description{
     padding-bottom: 2.5rem;
     font-size: 0.9rem;
-    color: darkgrey;
+    color: var(--darkgrey);
 }

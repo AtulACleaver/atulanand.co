@@ -57,6 +57,42 @@
 
 .caption{
     font-size: 0.8rem;
-    color: darkgrey;
+    color: var(--darkgrey);
     text-align: center; 
+}
+
+.testimonial-card{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.testimonial-card-item{
+    width: 350px;
+    height: 400px;
+    padding: 1rem;
+    background-color: #f3f9fb;
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.profession{
+    font-style: italic;
+    padding-top: 5px;
+    color: var(--scheme);
+    text-align: center;
+}
+
+.response{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.19rem;
+    line-height: 1.3;
+    color: #222831;
 }
