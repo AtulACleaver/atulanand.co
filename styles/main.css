@@ -22,7 +22,13 @@
 
 /* Scroll-bar */
 ::-webkit-scrollbar {
-    display: none;
+    
+}
+
+::selection {
+    background: #025fff;
+    color: #fff;
+    text-shadow: none;
 }
 
 *{
