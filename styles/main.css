@@ -25,7 +25,7 @@
 ::selection {
     background: #025fff;
     color: #fff;
-    text-decoration: default;
+    text-decoration: none;
 }
 
 *{

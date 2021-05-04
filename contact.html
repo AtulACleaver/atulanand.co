@@ -43,6 +43,7 @@
     <!-- CSS Elements -->
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/contact/contact.css">
     <!-- CSS Media Fix -->
     <link rel="stylesheet" href="styles/media/navbar_media.css">
     <!-- CSS-Connections-END -->
@@ -66,7 +67,7 @@
                 <a class = "logo" href="index">A.</a>
             </div>
             <button class="hamburger" id="hamburger">
-                <img src="https://img.icons8.com/material-rounded/50/000000/menu--v1.png"/ style="width: 30px; height: 30px; margin-right: 10px;">
+                <img src="https://img.icons8.com/material-rounded/50/000000/menu--v1.png" alt="hamburger" style="width: 30px; height: 30px; margin-right: 10px;">
               </button>
               <ul class="nav-list" id="nav-list">
                     <li class="nav-list-item"><a href="about" class="nav-list-a">About</a></li>
@@ -78,9 +79,36 @@
         </div>
     </header>
     <section>
-        
+        <div class="heading">Get In Touch</div>
+        <div class="description">Here, you can find all kinds of ways to <u>get in touch</u> with me.</div>
+        <hr class="end">
+    </section>
+    <section>
+        <div class="heading-2">Through <u>Email</u></div>
+        <div id="error-message"></div>
+        <div class="form">
+            <form action="https://formspree.io/f/mayaqpzp" method="POST" class="email-form">
+                <div class="input-field">
+                    <img src="assets/img/name.png" alt="email" class="input-icon">
+                    <input class="input" type="text" name="name" id="full-name" placeholder="Your Name" required="">
+                </div>
+                <div class="input-field">
+                    <img src="assets/img/email.png" alt="email" class="input-icon">
+                    <input class="input" type="email" name="_replyto" id="email-address" placeholder="Email-Id" required="">
+                </div>
+                <div class="input-field">
+                    <img src="assets/img/message.png" alt="email" class="input-icon">
+                    <textarea class="input" rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
+                </div>
+                <input class="form-btn" type="submit" value="Submit">
+            </form>
+        </div>
     </section>
 </div>
+<footer class = "footer">
+    <div class="copyright">&copy; <a class="references" target="_blank" href="https://linktr.ee/AtulACleaver">Atul Anand</a> 2021, All Rights Reserved.</div>
+</footer>
 <script type="text/javascript" src="script/navbar.js"></script>
+<script type="text/javascript" src="script/contact.js"></script>
 </body>
 </html>
