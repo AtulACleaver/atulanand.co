@@ -28,12 +28,14 @@
     width: 100%;
     border-radius: 1rem;
     margin-bottom: .5rem;
+    filter: drop-shadow(3px 3px 7px var(--grey));
 }
 
 .collab-img{
     width: 100%;
     border-radius: 1rem;
     margin-bottom: .5rem;
+    filter: drop-shadow(3px 3px 7px var(--darkgrey));
 }
 
 #discord-color{

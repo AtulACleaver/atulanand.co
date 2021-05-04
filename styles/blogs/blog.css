@@ -1,5 +1,5 @@
 .heading{
-    font-size: 2.5rem;
+    font-size: var(--heading);
     padding-top: 10%;
     padding-bottom: 4%;
     text-align: center;

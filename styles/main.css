@@ -18,17 +18,14 @@
     --grey: #e9ecef;
     --text-font: 'Messina Sans';
     --darkgrey: #687980;
-}
-
-/* Scroll-bar */
-::-webkit-scrollbar {
-    
+    --heading: 2.5rem;
+    --sub-heading: 1.8rem;
 }
 
 ::selection {
     background: #025fff;
     color: #fff;
-    text-shadow: none;
+    text-decoration: default;
 }
 
 *{
