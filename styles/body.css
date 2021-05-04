@@ -18,3 +18,51 @@
     font-size: 0.9rem;
     color: var(--darkgrey);
 }
+
+.direct{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.card{
+    height: 280px;
+    background: var(--white);
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+    width: 30%;
+    padding: 1.3rem 0 0;
+    margin-right: 2rem;
+    border-radius: 20px;
+    filter: drop-shadow(3px 3px 7px var(--grey));
+    transition: all 0.4s ease-out;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    filter: drop-shadow(3px 3px 7px var(--darkgrey));
+}
+
+.card-logo{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 0 0 20px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.card-description{
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding: 20px 10px 0;
+}
+
+.last{
+    margin-right: 0;
+}
+
