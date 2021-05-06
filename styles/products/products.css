@@ -1,0 +1,20 @@
+.heading{
+    width: 100%;
+    text-align: center;
+    font-size: var(--heading);
+    font-weight: bold;
+    padding-top: 4rem;
+    /*Instead of remove padding for writing description I am using margin-top: -x;*/
+    padding-bottom: 3rem;
+}
+
+.description{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.products{
+    margin: 2rem 0;
+    width: 100%;
+}
