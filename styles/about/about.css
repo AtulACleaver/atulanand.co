@@ -74,7 +74,7 @@
     width: 350px;
     height: 400px;
     padding: 1rem;
-    background-color: #f3f9fb;
+    background-color: var(--white);
     border: 1px solid var(--grey);
     border-radius: 20px;
     filter: drop-shadow(3px 3px 7px var(--grey));
