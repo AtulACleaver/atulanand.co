@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'Messina Sans';
+    src: url('../../assets/fonts/MessinaSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
 body{
     cursor: url('../../assets/img/twitter.svg'), auto;
+    font-size: 1rem;
+    font-family: 'Messina Sans';
 }
 .tweets{
     display: flex;
