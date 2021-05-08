@@ -65,3 +65,6 @@
     margin-right: 0;
 }
 
+#twitter-section{
+    cursor: url(../assets/img/twitter.svg), wait;
+}

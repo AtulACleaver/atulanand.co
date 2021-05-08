@@ -1,8 +1,12 @@
+body{
+    cursor: url('../../assets/img/twitter.svg'), auto;
+}
 .tweets{
     display: flex;
 }
 
 .twitter-tweet {
     padding-right: 30px;
+    cursor: url('../../assets/img/twitter.svg'), auto;
     padding-left: 20px;
 }
