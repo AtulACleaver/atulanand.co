@@ -40,6 +40,15 @@
     .passion{
         width: 100%;
     }
+    .testimonial-card-item{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .testimonial-card-item{
+        height: 480px;
+    }
 }
 
 @media screen and (max-width:1000px){

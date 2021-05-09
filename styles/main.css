@@ -39,6 +39,7 @@
     font-family: var(--text-font);
     color: var(--text);
     scroll-behavior: smooth;
+    box-shadow: none;
 }
 
 body{
