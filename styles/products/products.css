@@ -29,6 +29,10 @@
     padding-bottom: 1rem;
 }
 
+.card{
+    padding: 0 0 100px;
+}
+
 .templates{
     display: block;
     width: 90%;
@@ -43,7 +47,7 @@
 }
 .template-img:hover{
     transform: scale(1.01);
-    filter: drop-shadow(0px 0px 8px var(--scheme));
+    filter: drop-shadow(0px 0px 5px var(--scheme));
 }
 
 .card-description{
@@ -64,5 +68,3 @@
     color: #85bb65;
     padding-left: 2.5rem;
 }
-
-
