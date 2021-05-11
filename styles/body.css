@@ -66,5 +66,46 @@
 }
 
 #twitter-section{
-    cursor: url(../assets/img/twitter.svg), wait;
+    cursor: url(../assets/img/twitter.svg), default;
+}
+
+.templates{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tmp-card{
+    width: 48%;
+}
+
+.template-img{
+    width: 100%;
+    border-radius: 1rem;
+    filter: drop-shadow(0 0 7px var(--grey));
+    transition: all 0.4s ease-out;
+}
+.template-img:hover{
+    transform: scale(1.01);
+    filter: drop-shadow(0 0 7px var(--darkgrey));
+}
+
+
+.tmp-card-description{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0 0;
+}
+
+.tmp-card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 0 0 .7rem;
+}
+
+.tmp-price{
+    padding-right: .7rem;
+    font-size: 1.4rem;
+    color: #85bb65;
+    padding-left: 2.5rem;
 }
