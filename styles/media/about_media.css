@@ -2,6 +2,9 @@
     .intro-text{
         font-size: 1.3rem;
     }
+    .description{
+        font-size: 1.3rem;
+    }
     .passion{
         width: 90%;
     }
@@ -35,6 +38,9 @@
 
 @media screen and (max-width:540px){
     .intro-text{
+        font-size: 1.3rem;
+    }
+    .description{
         font-size: 1.3rem;
     }
     .passion{
