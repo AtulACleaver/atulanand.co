@@ -67,8 +67,8 @@
 }
 
 .icon{
-    height: 18vw;
-    width: 18vw;
+    height: 17vw;
+    width: 17vw;
     margin: 0 10px 0;
     filter: drop-shadow(2px 2px 4px black);
     transition: all 0.2s ease-in-out;
