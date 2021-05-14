@@ -10,6 +10,7 @@
     width: 100%;
     font-size: 2.5rem;
     font-weight: bold;
+    text-align: center;
     padding-top: 4rem;
 }
 
@@ -17,6 +18,7 @@
     font-size:1.5rem;
     padding-top: 20px;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .intro-text{
@@ -65,8 +67,8 @@
 }
 
 .icon{
-    height: 15vw;
-    width: 15vw;
+    height: 18vw;
+    width: 18vw;
     margin: 0 10px 0;
     filter: drop-shadow(2px 2px 4px black);
     transition: all 0.2s ease-in-out;
@@ -130,7 +132,6 @@
     padding: 2rem 0 2.6rem;
     font-size: 1.7rem;
     text-align: center;
-    margin-left: -1rem;
 }
 
 .skill-col{
@@ -147,7 +148,7 @@
 
 .skills li{
     list-style: none;
-    padding: .4rem;
+    padding: .4rem 0;
 }
 
 .skills-item{
@@ -167,3 +168,4 @@
     font-size: 1rem;
     color: var(--darkgrey);
 }
+
