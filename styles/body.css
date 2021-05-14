@@ -98,9 +98,14 @@
 }
 
 .tmp-card-title{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     padding: 0 0 0 .7rem;
+    transition: all 0.4s ease-in-out;
+}
+.tmp-card-title:hover{
+    color: var(--scheme);
+    text-decoration: underline;
 }
 
 .tmp-price{

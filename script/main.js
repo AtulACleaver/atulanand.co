@@ -1,6 +1,6 @@
-var colors = ['#025fff','#8ac926','#f09835','#e9373f','#9650a9'];
+const colors = ['#025fff', '#f58634', '#81b214', '#fb3640', '#aa2ee6','#28b5b5'];
 
-var randomColors = colors[Math.floor(Math.random() * colors.length)];
+const randomColors = colors[Math.floor(Math.random() * colors.length)];
 
 function setColor(){
     $(":root").css("--scheme", randomColors);

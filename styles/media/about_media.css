@@ -59,6 +59,7 @@
     }
     .col{
         padding: 0 0 2rem;
+        padding-right: 15px;
     }
 }
 
