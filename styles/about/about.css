@@ -159,7 +159,7 @@
 }
 
 .mono{
-    font-family: 'JetBrains Mono', monospace !important;
+    /* font-family: 'JetBrains Mono', monospace !important; */
 }
 
 .skills-description{

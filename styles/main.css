@@ -89,7 +89,8 @@ a {
 }
 
 u{
-    text-decoration-color: var(--scheme);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /*Common Tags for all over the webpage*/
