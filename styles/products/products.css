@@ -47,7 +47,7 @@
 }
 .template-img:hover{
     transform: scale(1.01);
-    filter: drop-shadow(0px 0px 5px var(--scheme));
+    filter: drop-shadow(0px 0px 10px var(--scheme));
 }
 
 .card-description{
