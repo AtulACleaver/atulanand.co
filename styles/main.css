@@ -95,16 +95,17 @@ u{
 
 /*Common Tags for all over the webpage*/
 .references{
-    color: var(--scheme);
+    border-bottom: 1.5px solid var(--scheme);
     transition: all 0.2s ease-out;
 }
 .references:hover{
-    filter: brightness(87%);
+    color: var(--scheme);
 }
 
 .references:focus{
     font-weight: bold;
-    filter: brightness(87%);
+    border-bottom: 1.5px solid var(--scheme);
+    color: var(--scheme);
 }
 
 
@@ -121,4 +122,8 @@ u{
 
 #twitter-color{
     color: #08a0e9;
+}
+
+.intro-text{
+    line-height: 1.4;
 }

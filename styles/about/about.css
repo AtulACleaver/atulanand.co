@@ -28,7 +28,7 @@
     padding-bottom: 30px;
 }
 
-.video {
+/* .video {
     position: relative; 
     padding-bottom: 56.25%; 
     padding-top: 30px; 
@@ -43,16 +43,8 @@
     left: 0; 
     width: 100%; 
     height: 100%;
-    /* check it first */
     border-radius: 20px;
-}
-
-.passion{
-    display: block;
-    /* margin-left: auto; */
-    margin-right: auto;
-    width: 100%;
-}
+}*/
 
 .my-skills{
     display: flex;
@@ -130,7 +122,7 @@
 /* skills */
 .skill-heading{
     padding: 2rem 0 2.6rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -140,8 +132,8 @@
 }
 
 .skill-title{
-    font-size: 1.4rem;
-    font-weight: normal;
+    font-size: 1.3rem;
+    font-weight: 600;
     padding: 0 0 1.5rem;
     color: var(--darkgrey);
 }
@@ -153,7 +145,7 @@
 
 .skills-item{
     color: var(--scheme);
-    font-size: 1rem;
+    font-size: 1.19rem;
     font-family: var(--text-font);
     font-weight: 500;
 }
@@ -169,3 +161,14 @@
     color: var(--darkgrey);
 }
 
+.working{
+    width: 75%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.working-list li{
+    font-size: 1.3rem;
+    line-height: 1.2;
+    padding-bottom: 0.8rem;
+}
