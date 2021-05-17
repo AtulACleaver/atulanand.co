@@ -150,9 +150,9 @@
     font-weight: 500;
 }
 
-.mono{
-    /* font-family: 'JetBrains Mono', monospace !important; */
-}
+/* .mono{
+    font-family: 'JetBrains Mono', monospace !important;
+} */
 
 .skills-description{
     text-align: center;
