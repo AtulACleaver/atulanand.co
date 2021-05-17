@@ -1,0 +1,56 @@
+.page-not-found{
+    width: 100%;
+    padding: 7rem 0 0;
+}
+
+.main{
+    font-size: 7rem;
+    text-align: center;
+    color: var(--scheme);
+}
+
+.description{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.homepage-btn{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.homepage{
+    font-size: 1.5rem;
+    border: 2px solid var(--scheme);
+    padding: 10px;
+    border-radius: 15px;
+    background: none;
+    transition: all 0.4s ease-in-out;
+    margin: 1rem 0;
+}
+
+.homepage:hover{
+    background: var(--scheme);
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons{
+    width: 50px;
+    height: 50px;
+    margin: 1rem 30px 0;
+    filter: drop-shadow(0px 0px 3px var(--darkgrey));
+    transition: all 0.4s ease-in-out;
+}
+
+.last{
+    margin-right: 0;
+}
+
+.social-icons:hover{
+    filter: brightness(90%);
+    filter: drop-shadow(0px 0px 5px var(--darkgrey));
+}
