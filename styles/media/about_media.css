@@ -1,16 +1,16 @@
 @media screen and (max-width:850px){
-    .intro-text{
-        font-size: 1.3rem;
-    }
-    .description{
-        font-size: 1.3rem;
-    }
     .passion{
         width: 90%;
     }
     .testimonial-card-item{
         width: 280px !important;
         height: 440px;
+    }
+    .working{
+        width: 90%;
+    }
+    .working-list li{
+        font-size: 3vw;
     }
 }
 
@@ -34,15 +34,12 @@
     .response{
         font-size: 1.3rem;
     }
+    .working-list li{
+        font-size: 1rem !important;
+    }
 }
 
 @media screen and (max-width:640px){
-    .intro-text{
-        font-size: 1.3rem;
-    }
-    .description{
-        font-size: 1.3rem;
-    }
     .skill-heading{
         font-size: 6vw;
     }
@@ -84,5 +81,8 @@
     }
     .response{
         font-size: 1.1rem;
+    }
+    .working-list li{
+        font-size: 2.3vw;
     }
 }

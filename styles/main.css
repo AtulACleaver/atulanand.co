@@ -16,7 +16,7 @@
     --text: #1B2A3D;
     --black: #1B2A3D;
     --grey: #e9ecef;
-    --text-font: 'Messina Sans';
+    --text-font: 'Messina Sans', sans-serif;
     --darkgrey: #687980;
     --heading: 2.5rem;
     --sub-heading: 1.8rem;
@@ -113,8 +113,7 @@ u{
 .end{
     display: block;
     width: 25%;
-    margin: auto;
-    margin-top: 5rem;
+    margin: 2rem auto 0;
     padding: 0;
     border: 2px solid var(--scheme);
     border-radius: 12px;
@@ -124,6 +123,16 @@ u{
     color: #08a0e9;
 }
 
-.intro-text{
-    line-height: 1.4;
+.heading{
+    padding-top: 10%;
+    font-size: 2.5rem !important;
+    padding-bottom: 3%;
+}
+
+.description{
+    text-align: center;
+    font-size: 1.5rem !important;
+    color: var(--text) !important;
+    line-height: 1.3 !important;
+    padding: 10px 0 20px;
 }

@@ -4,34 +4,20 @@
     text-align: center;
     font-size: var(--heading);
     font-weight: bold;
-    padding-top: 4rem;
-    /*Instead of remove padding for writing description I am using margin-top: -x;*/
-    padding-bottom: 3rem;
+    padding-top: 4rem !important;
+    padding: 0 0 1.1rem;
 }
 
 .sub-heading{
     padding-top: 2rem;
-    padding-bottom: 6px;
+    padding-bottom: 10px;
     width: 100%;
     text-align: center;
     font-size: var(--sub-heading);
 }
 
-.description{
-    margin-top: -2.2rem;
-    text-align: center;
-    padding-bottom: 2.5rem;
-    font-size: 1.5rem;
-}
-
 .references{
     text-decoration: none;
-}
-
-.intro-text{
-    font-size: 1.5rem;
-    text-align: center;
-    padding-bottom: 1.4rem;
 }
 /*End*/
 

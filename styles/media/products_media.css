@@ -45,10 +45,6 @@
     .heading-2{
         font-size: 1.9rem;
     }
-    .description {
-        font-size: 5vw !important;
-        padding-bottom: 20px;
-    }
     .template-img{
         filter: drop-shadow(0 0 4px var(--grey));
     }

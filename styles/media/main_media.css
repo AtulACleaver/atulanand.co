@@ -1,0 +1,29 @@
+@media screen and (max-width:1300px){
+    .description{
+        font-size: 2.3vw !important;
+    }
+}
+
+@media screen and (max-width:840px){
+    .description{
+        font-size: 3vw !important;
+    }
+    .heading{
+        font-size: 2.5rem !important;
+    }
+    .heading-2{
+        font-size: 2.5rem !important;
+    }
+}
+
+@media screen and (max-width:600px){
+    .description{
+        font-size: 1.09rem !important;
+    }
+    .heading{
+    font-size: 1.9rem !important;
+    }
+    .heading-2{
+        font-size: 1.9rem !important;
+    }
+}

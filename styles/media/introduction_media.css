@@ -2,9 +2,6 @@
     .heading{
         font-size: 1.9rem !important;
     }
-    .intro-text {
-        font-size: 4vw !important;
-    }
 }
 
 @media screen and (max-width: 960px){
