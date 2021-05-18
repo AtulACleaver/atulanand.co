@@ -51,21 +51,22 @@ body{
     padding-right: 15%;
     padding-left: 15%;
 }
+/* -------------------------- */
 
 .footer{
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background: #111111;
     margin-top: 2.5rem;
+    background: var(--black);
+    padding: 7px 0;
 }
 
 .copyright{
-    color: var(--grey);
-    padding-top: 10px;
-    padding-bottom: 5px;
-    font-size: 15px;
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 /* Elements */
