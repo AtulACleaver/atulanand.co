@@ -34,10 +34,11 @@
 }
 
 .logo{
-    font-family: 'Sirin Stencil', cursive;
+    font-family: var(--logo-font);
     /* padding: 10px; */
-    margin-top: -0.5rem;
-    font-size: 3.5rem;
+    /* margin-top: -0.5rem; */
+    font-size: 3.4rem;
+    padding-top: 1rem;
     /* color: #845ec2; */
     color: var(--scheme);
     transition: all 0.4s ease-in-out;

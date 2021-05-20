@@ -7,6 +7,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'sign';
+    src: url('../assets/fonts/signatria-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Fonts - End */
 
 /* Universal For HTML */
@@ -17,6 +25,7 @@
     --black: #1B2A3D;
     --grey: #e9ecef;
     --text-font: 'Messina Sans', sans-serif;
+    --logo-font: 'sign', sans-serif;
     --darkgrey: #687980;
     --heading: 2.5rem;
     --sub-heading: 1.8rem;
@@ -60,14 +69,43 @@ body{
     text-align: center;
     margin-top: 2.5rem;
     background: var(--black);
-    padding: 7px 0;
+}
+
+.footer-content{
+    display: flex;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+}
+
+.footer-social-icons{
+    display: flex;
+}
+
+.footer-socials{
+    padding: 0 20px;
+}
+
+
+
+.footer-icons{
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-icons:hover{
+    fill: var(--scheme) !important;
 }
 
 .copyright{
+    /* background: var(--scheme); */
+    margin: auto 0;
+    font-size: 1.1rem;
     color: var(--white);
-    font-size: 1rem;
-    font-weight: 500;
 }
+
+.footer-last{
+    padding-right: 0;
+}
+
 
 /* Elements */
 button{

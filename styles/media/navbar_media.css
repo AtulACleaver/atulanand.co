@@ -1,5 +1,5 @@
 /* mobile and small tablets */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .container{
         padding: 10px 0;
     }
@@ -34,14 +34,24 @@
     .nav-list-item{
         padding-bottom: 1.3rem;
     }
-
-
+    .logo{
+        font-size: 7vw !important;
+    }
     
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 455px) {
+    .logo{
+        font-size: 2.5rem !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
     .container{
         padding: 10px 5% !important;
+    }
+    .logo{
+        font-size: 5.5vw;
     }
 }
 

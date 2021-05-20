@@ -14,6 +14,9 @@
     .heading-2{
         font-size: 2.5rem !important;
     }
+    .footer-content{
+        padding: 2rem 3vw;
+    }
 }
 
 @media screen and (max-width:600px){
@@ -25,5 +28,19 @@
     }
     .heading-2{
         font-size: 1.9rem !important;
+    }
+}
+
+@media screen and (max-width:670px){
+    .footer-content{
+        flex-direction: column;
+    }
+    .copyright{
+        padding: 0 0 25px;
+        text-align: center;
+    }
+
+    .footer-social-icons{
+        justify-content: center;
     }
 }

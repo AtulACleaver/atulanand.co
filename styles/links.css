@@ -1,0 +1,22 @@
+body{
+    background-image: url('assets/img/background.jpg') !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav-area{
+    width: 100%;
+    border-bottom: 1px solid darkgrey;
+    text-align: center;
+}
+
+.logo{
+    font-family: var(--logo-font);
+    color: var(--scheme);
+    font-size: 3.5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+a.logo:hover{
+    filter: brightness(120%);
+}
