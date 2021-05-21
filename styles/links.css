@@ -1,22 +1,55 @@
 body{
-    background-image: url('assets/img/background.jpg') !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
-.nav-area{
-    width: 100%;
-    border-bottom: 1px solid darkgrey;
-    text-align: center;
+
+.card{
+    width: 31rem;
+    height: 90vh;
+	background: #fafafa3f;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    border-radius: 20px;
+	margin: auto;
+	transition: all 0.4s ease-in-out;
+}
+
+.card:hover{
+	transform: scale(1.02);
+	box-shadow: rgba(0, 0, 0, 0.13) 0px 5px 15px;
 }
 
 .logo{
-    font-family: var(--logo-font);
-    color: var(--scheme);
-    font-size: 3.5rem;
-    padding-bottom: 1.5rem;
-
+	font-family: var(--logo-font);
+	color: var(--scheme);
+	text-align: center;
+	font-size: 3.5rem;
+	padding: 1rem 0;
+}
+.buttons-container {
+	display: block;
 }
 
-a.logo:hover{
-    filter: brightness(120%);
+.buttons{
+	display: block;
+	width: 80%;
+	padding: 1rem;
+	margin: 20px auto;
+	border: 0;
+	border-radius: 15px;
+	font-size: 1.5rem;
+	color: var(--black);
+	font-weight: bold;
+	background-color: #fafafa3f;
+	box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+	transition: all 0.4s ease-in-out;
+}
+
+.buttons:hover{
+	transform: scale(1.01);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
