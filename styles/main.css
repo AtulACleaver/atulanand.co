@@ -7,12 +7,9 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'sign';
-    src: url('../assets/fonts/signatria-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+@font-face{
+    font-family: 'Mikela';
+    src: url('../assets/fonts/MikelaLight.woff') format('woff');
 }
 
 /* Fonts - End */
@@ -24,11 +21,12 @@
     --text: #1B2A3D;
     --black: #1B2A3D;
     --grey: #e9ecef;
-    --text-font: 'Messina Sans', sans-serif;
-    --logo-font: 'sign', sans-serif;
+    --text-font: 'Messina Sans', serif;
+    --logo-font: 'Mikela', sans-serif;
     --darkgrey: #687980;
     --heading: 2.5rem;
     --sub-heading: 1.8rem;
+    --background-color: #fafafa;
 }
 
 ::selection {
@@ -52,7 +50,8 @@
 }
 
 body{
-    background: var(--white);
+    /* background: var(--white); */
+    background-color: var(--background-color);
 }
 
 .container{
@@ -119,11 +118,13 @@ a {
 
 .active a{
     color: var(--scheme);
+    filter: brightness(83%);
     font-weight: bold;
 }
 
 .active a:hover{
     color: var(--scheme);
+    filter: brightness(90%);
     font-weight: bold;
 }
 
@@ -139,6 +140,7 @@ u{
 }
 .references:hover{
     color: var(--scheme);
+    filter: brightness(85%);
 }
 
 .references:focus{

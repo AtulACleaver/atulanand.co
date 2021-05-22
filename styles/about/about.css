@@ -94,6 +94,7 @@
     font-style: italic;
     padding-top: 5px;
     color: var(--scheme);
+    filter: brightness(80%);
     text-align: center;
 }
 
@@ -131,6 +132,7 @@
 
 .skills-item{
     color: var(--scheme);
+    filter: brightness(80%);
     font-size: 1.19rem;
     font-family: var(--text-font);
     font-weight: 500;

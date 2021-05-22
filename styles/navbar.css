@@ -35,17 +35,15 @@
 
 .logo{
     font-family: var(--logo-font);
-    /* padding: 10px; */
-    /* margin-top: -0.5rem; */
     font-size: 3.4rem;
     padding-top: 1rem;
-    /* color: #845ec2; */
     color: var(--scheme);
+    filter: brightness(90%);
     transition: all 0.4s ease-in-out;
 }
 
-a.logo:hover{
-    filter: brightness(120%);
+.logo:hover{
+    transform: scale(1.03);
 }
 
 .nav-list{
@@ -67,10 +65,18 @@ a.logo:hover{
     text-decoration: none;
     padding-right: 2.5vw;
     padding-left: 2.5vw;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-list-a:hover{  
     color: var(--scheme);
+    filter: brightness(90%);
+}
+
+.nav-list-a:active{
+    color: var(--scheme);
+    filter: brightness(90%);
+    font-weight: bold;
 }
 
 .hamburger{
