@@ -7,6 +7,8 @@
     font-size: 7rem;
     text-align: center;
     color: var(--scheme);
+    filter: brightness(90%);
+    font-family: var(--logo-font);
 }
 
 

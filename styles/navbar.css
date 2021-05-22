@@ -46,6 +46,10 @@
     transform: scale(1.03);
 }
 
+.small{
+    display: none;
+}
+
 .nav-list{
     display: flex;
     align-items: center;
