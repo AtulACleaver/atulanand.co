@@ -1,26 +1,22 @@
 body{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .card{
-    width: 31rem;
-    height: 90vh;
-	background: #fafafa3f;
+    width: 40%;
+	height: 90%;
 	position: absolute;
 	top:0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 	margin: auto;
-	transition: all 0.4s ease-in-out;
-}
-
-.card:hover{
-	transform: scale(1.02);
-	box-shadow: rgba(0, 0, 0, 0.13) 0px 5px 15px;
+	padding: 10px;
+	/* border: 5px solid var(--scheme); */
+	background: var(--background-color);
 }
 
 .logo{
@@ -30,7 +26,13 @@ body{
 	text-align: center;
 	font-size: 3.5rem;
 	padding: 1rem 0;
+	transition: all 0.4s ease-in-out;
 }
+
+.logo:hover{
+	transform: scale(1.03);
+}
+
 .buttons-container {
 	display: block;
 }
@@ -40,17 +42,18 @@ body{
 	width: 80%;
 	padding: 1rem;
 	margin: 20px auto;
-	border: 0;
-	border-radius: 15px;
+	border: 2px dashed var(--scheme);
 	font-size: 1.5rem;
-	color: var(--black);
-	font-weight: bold;
-	background-color: #fafafa3f;
+	border-radius: 1rem;
+	background: var(--background-color);
 	box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
 	transition: all 0.4s ease-in-out;
+	filter: brightness(80%);
+	text-align: center;
 }
 
 .buttons:hover{
-	transform: scale(1.01);
+	background: var(--scheme);
+	filter: brightness(80%);
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

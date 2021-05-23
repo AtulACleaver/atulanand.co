@@ -4,6 +4,15 @@
     }
 }
 
+@media screen and (max-width: 1000px){
+  #scroll-up-btn{
+    color: transparent;
+    background: transparent;
+    width: 0px;
+    height: 0px;
+  }
+}
+
 @media screen and (max-width:840px){
     .description{
         font-size: 3vw !important;

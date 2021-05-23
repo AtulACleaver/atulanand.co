@@ -66,6 +66,11 @@
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select:none; 
+    user-select:none;
+    -o-user-select:none;
 }
 
 .testimonial-card-item{
