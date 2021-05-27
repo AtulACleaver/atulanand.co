@@ -72,7 +72,7 @@ body{
 
 .footer-content{
     display: flex;
-    padding: 2rem 4rem;
+    padding: 2rem 4.5rem;
     justify-content: space-between;
 }
 
