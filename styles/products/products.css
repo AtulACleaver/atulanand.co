@@ -24,19 +24,22 @@
 }
 
 .card{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
     padding: 0 0 10vh;
 }
 
 .templates{
-    display: block;
-    width: 90%;
-    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .template-img{
     width: 100%;
     border-radius: 1rem;
-    filter: drop-shadow(0 0 7px var(--darkgrey));
+    filter: drop-shadow(0 0 7px var(--grey));
     transition: all 0.4s ease-out;
 }
 .template-img:hover{
