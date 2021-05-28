@@ -39,6 +39,7 @@
     padding-top: 1rem;
     color: var(--scheme);
     filter: brightness(90%);
+    transition: all 0.3s ease-in-out;
 }
 
 .logo:hover{
