@@ -24,16 +24,16 @@
 }
 
 .card{
-    display: flex;
+    display: block;
     justify-content: space-between;
-    width: 45%;
+    width: 80%;
     padding: 0 0 10vh;
+    margin: 0 auto;
 }
 
 .templates{
-    display: flex;
+    display: block;
     width: 100%;
-    justify-content: space-between;
 }
 
 .template-img{
@@ -54,14 +54,14 @@
 }
 
 .card-title{
-    font-size: 1.4rem;
-    font-weight: bold;
+    font-size: 1.6rem;
     padding: 0 0 0 .7rem;
 }
 
 .price{
     padding-right: .7rem;
     font-size: 1.4rem;
-    color: #85bb65;
+    color: var(--scheme);
+    filter: brightness(85%);
     padding-left: 2.5rem;
 }
