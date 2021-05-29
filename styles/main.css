@@ -167,7 +167,7 @@ u{
 .heading{
     padding-top: 10%;
     font-size: 2.5rem !important;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 .description{
@@ -199,4 +199,9 @@ u{
 
 #scroll-up-btn:hover{
     filter: brightness(90%);
+}
+
+code{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 300;
 }
