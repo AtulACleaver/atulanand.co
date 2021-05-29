@@ -204,4 +204,6 @@ u{
 code{
     font-family: 'JetBrains Mono', monospace;
     font-weight: 300;
+    color: var(--scheme);
+    filter: brightness(83%);
 }
