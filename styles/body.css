@@ -107,3 +107,10 @@
     padding-left: 2.5rem;
     filter: brightness(90%);
 }
+
+.commentbox{
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+    padding: 10px;
+    filter: drop-shadow(0 0 7px var(--grey));
+}
