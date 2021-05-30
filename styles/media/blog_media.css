@@ -1,4 +1,4 @@
-@media screen and (max-width: 540px){
+@media screen and (max-width: 650px){
     .heading{
         font-size: 2.5rem;
     }
@@ -23,15 +23,15 @@
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 830px){
     .heading{
         font-size: 2.5rem;
     }
     .heading-2{
-        font-size: 2.2rem;
+        font-size: 4vw !important;
     }
     .article-heading{
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     .topics-section{
         padding-bottom: 2rem;
@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (max-width:905px){
+@media screen and (max-width:1005px){
     .heading-2{
         font-size: 2.2rem;
     }

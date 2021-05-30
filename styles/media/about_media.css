@@ -12,6 +12,10 @@
     .working-list li{
         font-size: 3vw;
     }
+    .testimonial-card-item:hover{
+        transform: scale(1);
+        filter: drop-shadow(3px 3px 7px var(--grey));
+    }
 }
 
 @media screen and (max-width:650px){
