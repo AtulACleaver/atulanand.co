@@ -26,6 +26,9 @@
     .template-img:hover{
         filter: drop-shadow(0px 0px 4px var(--scheme));
     }
+    .card{
+        border-radius: 5px;
+    }
 }
 
 @media screen and (max-width:540px){
