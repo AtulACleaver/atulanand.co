@@ -5,22 +5,12 @@
     .topics-section{
         display: block;
         width: 100%;
+        padding: 10px 0 0;
     }
     .topics{
         width: 100%;
     }
-    #study-topics{
-        height: 220px;
-    }
-    #skills{
-        height: 270px;
-    }
-    #tips{
-        height: 330px;
-    }
-    #experiences{
-        height: 300px;
-    }
+
 }
 
 @media screen and (max-width: 830px){
@@ -35,9 +25,6 @@
     }
     .topics-section{
         padding-bottom: 2rem;
-    }
-    .topics{
-        height: 300px;
     }
 }
 

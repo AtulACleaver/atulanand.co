@@ -7,7 +7,7 @@
 body{
     cursor: url('../../assets/img/twitter.svg'), auto;
     font-size: 1rem;
-    font-family: 'Messina Sans';
+    font-family: 'Messina Sans', serif;
 }
 .tweets{
     display: flex;

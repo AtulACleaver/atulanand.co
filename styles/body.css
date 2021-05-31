@@ -114,3 +114,10 @@
     padding: 10px;
     filter: drop-shadow(0 0 7px var(--grey));
 }
+
+.warning{
+    padding: 10px 0px;
+    font-size: 1.1rem;
+    color: var(--darkgrey);
+    text-align: center;
+}

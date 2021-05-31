@@ -7,7 +7,7 @@
 }
 .heading-2{
     padding-top: 10%;
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding-bottom: 3.4%;
 }
 
@@ -22,7 +22,7 @@
     padding-top: 10px;
     margin-bottom: 15px;
     border-bottom: 1px solid darkgrey;
-    font-size: 20px;
+    font-size: 1rem;
     transition: all 0.2s ease;
     align-items: baseline;
 }
@@ -34,6 +34,8 @@
 .date{
     color: var(--scheme);
     flex: 0 0 100px;
+    font-size: 1rem;
+    filter: brightness(83%);
 }
 
 .link-article{
@@ -44,9 +46,10 @@
 .topics-section{
     display: flex;
     justify-content: space-between;
+    padding: 30px 0 0;
 }
 
 .topics{
     width: 45%;
-    height: 400px;
+    height: 100%;
 }

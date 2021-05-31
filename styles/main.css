@@ -200,10 +200,3 @@ u{
 #scroll-up-btn:hover{
     filter: brightness(90%);
 }
-
-code{
-    font-family: 'JetBrains Mono', monospace;
-    font-weight: 300;
-    color: var(--scheme);
-    filter: brightness(83%);
-}

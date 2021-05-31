@@ -7,7 +7,7 @@ const randomNumber = Math.floor(Math.random() * colors.length);
 const randomColors = colors[randomNumber];
 
 //Properties
-const opacity = '1.8f';
+const opacity = '1.99f';
 
 //Scheme Color
 const schemeColors = randomColors;
