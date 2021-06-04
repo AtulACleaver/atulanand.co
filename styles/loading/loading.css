@@ -2,7 +2,7 @@
   width: 100%;
   z-index: 1000;
   position: fixed;
-  background: white;
+  background: #fafafa;
   height: 100vh;
   display: flex;
   justify-content: center;
