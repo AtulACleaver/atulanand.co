@@ -22,6 +22,7 @@
 
 .loader-quote{
   font-size: 1.9rem;
+  padding: 0 1.9rem;
   font-family: 'Playfair Display', serif;
   font-style: italic;
   text-align: center;
@@ -35,6 +36,7 @@
 
 @media screen and (max-width: 850px){
   .loader-quote{
+    padding: 0 1.9rem;
     font-size: 3vw;
   }
   .loader-img{

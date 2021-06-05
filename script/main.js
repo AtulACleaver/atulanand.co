@@ -26,3 +26,15 @@ window.addEventListener("load", function () {
     const loader = document.querySelector(".loading")
     loader.className += ' hidden';
  })
+
+ var quotes = ["\"You can never become happy, you can only be happy\" – Sam Harris",
+                "\"Perfectionism is a distraction.\" – Make Time",
+               "\"Failure is an attitude and not an outcome\" – Harvey Mackay",
+               "\"There is no greater agony than bearing an untold story inside you.\" – Maya Angelou",
+               "\"Each traveler has to find their own way to climb their mountain.\"",
+               "\"Everyone is a mirror of themselves.\" – Nathaniel Drew"
+                ];
+
+var randomQuotes = Math.floor(Math.random() * quotes.length);
+
+document.getElementById("quote").innerHTML = quotes[randomQuotes];
