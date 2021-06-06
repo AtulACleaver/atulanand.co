@@ -23,28 +23,30 @@
     padding-bottom: 1rem;
 }
 
-.card{
-    display: block;
-    justify-content: space-between;
-    width: 80%;
-    padding: 0 0 10vh;
-    margin: 0 auto;
+.templates{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.templates{
+.card{
     display: block;
-    width: 100%;
+    width: 45%;
+    padding: 0 0 8vh;
 }
+
 
 .template-img{
     width: 100%;
-    border-radius: 1rem;
-    filter: drop-shadow(0 0 7px var(--grey));
-    transition: all 0.4s ease-out;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 1px var(--darkgrey));
+    transition: all 0.3s ease-out;
 }
+
 .template-img:hover{
-    transform: scale(1.01);
-    filter: drop-shadow(0px 0px 10px var(--scheme));
+    transform: translateY(-3px);
+    filter: drop-shadow(3px 3px 3px var(--scheme));
 }
 
 .card-description{
@@ -54,7 +56,7 @@
 }
 
 .card-title{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     padding: 0 0 0 .7rem;
 }
 

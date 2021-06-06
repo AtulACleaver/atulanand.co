@@ -2,11 +2,14 @@
     .card-title{
         font-size: 3vw;
     }
-    .heading{
-        font-size: 2.5rem;
+    .templates{
+        display: block;
+        width: 100%;
     }
-    .heading-2{
-        font-size: 2.5rem;
+    .card{
+        display: block;
+        width: 100%;
+        padding: 0 0 4vh;
     }
 }
 
@@ -14,47 +17,13 @@
     .card-title{
         font-size: 3.6vw;
     }
-    .templates{
-        width: 100%;
-    }
-    .heading{
-        font-size: 2.5rem;
-    }
-    .template-img{
-        filter: drop-shadow(0 0 4px var(--grey));
-    }
-    .template-img:hover{
-        filter: drop-shadow(0px 0px 4px var(--scheme));
-    }
-    .card{
-        border-radius: 5px;
-    }
 }
 
 @media screen and (max-width:540px){
     .card-title{
-        font-size: 3.9vw;
-    }
-    .templates{
-        width: 100%;
-    }
-    .heading{
-        font-size: 1.9rem !important;
-        padding-bottom: 2rem;
+        font-size: 4.5vw;
     }
     .end{
         margin-top: 1.5rem;
-    }
-    .heading-2{
-        font-size: 1.9rem;
-    }
-    .template-img{
-        filter: drop-shadow(0 0 4px var(--grey));
-    }
-    .template-img:hover{
-        filter: drop-shadow(0px 0px 4px var(--scheme));
-    }
-    .card-title {
-        font-size: 1rem;
     }
 }
