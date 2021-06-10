@@ -85,14 +85,21 @@ body{
     padding: 0 20px;
 }
 
-
-
 .footer-icons{
     transition: all 0.3s ease-in-out;
+    width: 25px;
+    height: 25px;
+}
+
+.footer-gumroad{
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .footer-icons:hover{
     fill: var(--scheme) !important;
+    filter: none;
+    -webkit-filter: none;
 }
 
 .copyright{
