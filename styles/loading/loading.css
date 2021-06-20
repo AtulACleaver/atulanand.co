@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
 
 
 .loading {
@@ -23,7 +23,7 @@
 .loader-quote{
   font-size: 1.9rem;
   padding: 0 1.9rem;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Crimson Text', serif;
   font-style: italic;
   text-align: center;
   -webkit-touch-callout: none;
